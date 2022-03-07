@@ -1,6 +1,6 @@
 // const mongoose = require("mongoose");
 const mongoose=require('mongoose')
-
+//everything could be in a different schema
 const userSchema = mongoose.Schema(
   {
     name: { type: "String", required: true },
